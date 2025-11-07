@@ -1,66 +1,149 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🛒 **E-Commerce Platform**
 
-## About Laravel
+A scalable & modular commerce solution built with modern Laravel ecosystem.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🚀 High performance • 🔐 Secure • 📦 Extensible • 🧩 Pluggable
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![status](https://img.shields.io/badge/Status-Active-brightgreen)
+![php](https://img.shields.io/badge/PHP-8.2-777BB4)
+![laravel](https://img.shields.io/badge/Laravel-11-ff2d20)
+![react](https://img.shields.io/badge/React-18-61dafb)
+![mysql](https://img.shields.io/badge/MySQL-8.0-00618a)
+![license](https://img.shields.io/badge/License-Proprietary-lightgrey)
+![issues](https://img.shields.io/github/issues/company/ecommerce)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ✨ **Features**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- 🧩 Modular domain separation
+- 💳 Pluggable payment pipeline (queue based)
+- 📦 Inventory reservation & stock snapshotting
+- 🛂 Role-based access control (RBAC)
+- 📜 Activity log & audit trail
+- 🔁 JWT authentication (with refresh)
+- 🔎 Faceted product filtering
+- 🌐 Multi-locale ready
+- 📬 Notification pipelines
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🧱 **System Architecture**
+- Monolith backend (Laravel 11)
+- React SPA frontend
+- REST API
+- MySQL + Redis
+- Queue workers (email/payment)
+- Role-based access control (RBAC)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠 **Tech Stack**
+| Layer | Technology |
+|-------|------------|
+| Backend | Laravel 11 / PHP 8.2 |
+| Frontend | React 18 / Vite |
+| Database | MySQL 8 |
+| Cache / Queue | Redis |
+| Web Server | Nginx |
+| Containerization | Docker |
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+## 📌 **Requirements**
+> Make sure your environment meets the following before setup:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- ✅ PHP ≥ 8.2
+- ✅ Composer ≥ 2.5
+- ✅ NodeJS ≥ 20
+- ✅ MySQL ≥ 8
+- ✅ Redis ≥ 7
+- ✅ Docker *(optional but recommended)*
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📚 **Documentation**
 
-## Security Vulnerabilities
+| No. | Topic | Link |
+|:---:|-------|------|
+| 1 | 📊 Entity Relationship Diagram (ERD) | https://example.com/docs/erd |
+| 2 | 🧾 API Reference (Swagger) | https://example.com/swagger |
+| 3 | 🧬 System Architecture | https://example.com/architecture |
+| 4 | 🚢 Deployment Guide | https://example.com/deploy |
+| 5 | 🗄 Database Migration Rules | https://example.com/db-rules |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+> 🔄 *Documentation links will be updated as the project grows.*
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 📁 **Project Structure**
+
+```
+📦 **ecommerce**
+├── 📂 app
+│   ├── 📂 Domain
+│   │   ├── 📂 Catalog
+│   │   ├── 📂 Order
+│   │   ├── 📂 Payment
+│   │   └── 📂 User
+│   ├── 📂 Http
+│   │   ├── 📂 Controllers
+│   │   └── 📂 Middleware
+│   └── 📂 Services
+│
+├── 📂 resources
+│   ├── 📂 views
+│   ├── 📂 js
+│   └── 📂 css
+│
+├── 📂 routes
+│   ├── 📄 api.php
+│   ├── 📄 web.php
+│   └── 📄 channels.php
+│
+├── 📂 database
+│   ├── 📂 migrations
+│   ├── 📂 seeders
+│   └── 📂 factories
+│
+├── 📂 tests
+│   ├── 📂 Feature
+│   └── 📂 Unit
+│
+├── 📂 docker
+├── 📂 config
+├── 📄 composer.json
+└── 📄 README.md
+```
+
+---
+## 📦 Extra Dev Tools
+
+<details>
+<summary>Click to expand</summary>
+
+- 🧵 Git Branch Flow
+- 🧹 Coding Convention
+- 📝 Conventional Commit Rules
+- 🆘 Troubleshooting Index
+- 📮 Postman Collection
+- 🌱 DB Seeds Patterns
+- 🔔 Event-Driven Integration Guide
+</details>
+
+---
+
+## 🚀 **Setup & Installation**
+
+```bash
+git clone https://github.com/company/ecommerce.git
+cd ecommerce
+cp .env.example .env
+composer install
+php artisan key:generate
+php artisan migrate --seed
+npm install && npm run dev
