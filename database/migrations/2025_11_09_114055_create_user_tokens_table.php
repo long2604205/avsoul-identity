@@ -11,15 +11,15 @@ return new class extends BaseMigration
      */
     public function up(): void
     {
-        Schema::create('sessions', function (Blueprint $table) {
+        Schema::create('user_tokens', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
+            $table->text('token');
             $table->string('ip_address', 100);
             $table->string('user_agent', 255)->nullable();
-            $table->timestamp('logged_in_at')->nullable();
-            $table->timestamp('logged_out_at')->nullable();
-            $table->unsignedTinyInteger('status')->default(0);
-            $table->timestamp('created_at')->nullable();
+            $table->boolean('is_revoked')->default(false);
+            $table->timestamp('expires_at');
+            $table->timestamps();
         });
     }
 
@@ -28,6 +28,6 @@ return new class extends BaseMigration
      */
     public function down(): void
     {
-        Schema::dropIfExists('sessions');
+        Schema::dropIfExists('user_tokens');
     }
 };
